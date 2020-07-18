@@ -79,11 +79,11 @@ client.unload = command => {
 };
 
 client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'sa') {
+  if (msg.content.toLowerCase() === 'Antipatik ne zaman çıkacak?') {
 		if (!msg.guild.member(msg.author).hasPermission("BAN_MEMBERS")) {
-			msg.author.sendMessage('Aleyküm selam,  hoş geldin ^^'); 
+			msg.author.sendMessage('Bu gizli bilgiyi sana veremem.'); 
 		} else {
-		msg.reply('Aleyküm selam, hoş geldin ^^');
+		msg.reply('Bu gizli bilgiyi sana veremem.');
 		}
 	}
 });
